@@ -1,0 +1,17 @@
+# simple SCons script to build the example(s)
+
+env = Environment()
+import sys
+
+import platform
+if platform.system() == "Windows":
+	# windows has problems, so we help it along a bit...
+	cmd = [sys.executable,r'..\freesteam-config']
+else:
+	# on other platforms, it just works...
+	cmd = ['freesteam-config']
+
+env.ParseConfig(cmd + ['--libs','--cppflags'])
+	
+env.Program('isentropic',['isentropic.c'])
+
