@@ -1,5 +1,4 @@
 # IAPWSCalculator
-IAPWS Properties Calculator
 
 О программе
 -----------
