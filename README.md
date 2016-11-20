@@ -1,5 +1,7 @@
 # IAPWS Properties Calculator
 
+![Screenshot](/Screenshots/Screenshot_ru.png?raw=true "Screenshot")
+
 О программе
 -----------
 
@@ -40,6 +42,8 @@ yampa@yandex.ru.
 
 Исходный код и исполняемый файлы можно загрузить по следующей ссылке.
 https://github.com/ayampolsky/IAPWSCalculator
+
+![Screenshot](/Screenshots/Screenshot_en.png?raw=true "Screenshot")
 
 about
 -----
